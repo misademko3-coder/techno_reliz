@@ -14,3 +14,7 @@ aside {
   position: absolute;
   width: 200px;
 }
+
+.cards{
+  display: flex;  
+}
