@@ -16,5 +16,8 @@ aside {
 }
 
 .cards{
-  display: flex;  
+  display: flex; 
+  color:aliceblue; 
+  justify-content:center;
+  margin-bottom: 40px;
 }
