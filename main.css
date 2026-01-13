@@ -9,3 +9,8 @@ header {
   display: flex;
   justify-content: space-around;
 }
+
+aside {
+  position: absolute;
+  width: 200px;
+}
