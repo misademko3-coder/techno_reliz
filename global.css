@@ -18,3 +18,12 @@ main {
   min-height: calc(100vh - 280px);
   padding: 40px 16px;
 }
+
+footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-body{
+  width: 500px;
+}
