@@ -57,7 +57,8 @@
       <img
         class="post-img"
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqog3CFrFGuKSpdhxCKyXapbMmEDOOM5KSw&s"
-      />
+      data-bs-toggle="modal" data-bs-target="#exampleModal"
+        />
       <p class="post-text"></p>
       <p>💸 Ціна (орієнтовно)</p>
       <p>📍 Стартова ціна стандартного iPhone 17 — близько $799 / еквівалент у гривнях (≈ 46 800 грн при старті в Україні).</p>
@@ -83,6 +84,35 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 
     <script src="script.js" defer></script>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <img
+        class="w-100"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTqog3CFrFGuKSpdhxCKyXapbMmEDOOM5KSw&s"
+        />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
+</html>
   </body>
 </html>
 
