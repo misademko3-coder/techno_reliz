@@ -21,6 +21,6 @@ aside {
   justify-content:center;
   margin-bottom: 20px;
   margin: 100px;
-  margin-block: 100px;
+  gap: 50px;
 }
 
