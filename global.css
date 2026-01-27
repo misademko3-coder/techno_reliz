@@ -19,11 +19,21 @@ main {
   padding: 40px 16px;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: space-between;
 }
 
-.modal-body{
+.modal-body {
   width: 500px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
 }
